@@ -3,7 +3,7 @@
 $project_code = "sis_bootstrap_job";
 $project = "AUTOMATIC SIS BOOTSTRAP JOB";
 
-$date_time_run = $argv[1];
+// $date_time_run = $argv[1];
 
 $lib_root_path = "/var/www/html/lib";
 $batch_root_path = "/root/jobs";
@@ -16,7 +16,7 @@ AfwAutoLoader::addMainModule("sis");
 
 
 require_once("$lib_root_path/afw/common_date.php");
-include_once("$lib_root_path/afw/afw_shower.php");
+include_once("$lib_root_path/afw/helpers/afw_show_helper.php");
 require_once("$lib_root_path/hzm/alert/hzm_alerts.php");
 //require_once("$lib_root_path/hzm/api/hzm_api_consume.php");
 require_once("$lib_root_path/mail/hzm.mailer.php");
