@@ -1,5 +1,5 @@
 <?php
-    $pag_folder = "/var/www/html/v2/pag";
+    $pag_folder = "/var/www/html/pag";
     
     $nartaqi_admin_name = "رفيق محمد نورالدين بوبكر";
     $email_admin = "rafiq@company.com";
