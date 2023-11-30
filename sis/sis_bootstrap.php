@@ -10,20 +10,20 @@ $batch_root_path = "/root/jobs";
 
 
 
-require_once("$lib_root_path/../afw/afw_autoloader.php");
+require_once("$lib_root_path/afw/afw_autoloader.php");
 // AfwAutoLoader::addModule("hrm");
 AfwAutoLoader::addMainModule("sis");
 
 
-require_once("$lib_root_path/../afw/common_date.php");
-include_once("$lib_root_path/../afw/afw_shower.php");
+require_once("$lib_root_path/afw/common_date.php");
+include_once("$lib_root_path/afw/afw_shower.php");
 require_once("$lib_root_path/hzm/alert/hzm_alerts.php");
 //require_once("$lib_root_path/hzm/api/hzm_api_consume.php");
 require_once("$lib_root_path/mail/hzm.mailer.php");
 require_once("$batch_root_path/common/batch_functions.php");
 
 require_once("$lib_root_path/../external/db.php");
-require_once("$lib_root_path/../afw/common.php");
+require_once("$lib_root_path/afw/common.php");
 
 // require_once("$batch_root_path/nartaqi/nartaqi_job_functions.php");
 // require_once("$lib_root_path/../front/nartaqi/nartaqi_functions.php");
