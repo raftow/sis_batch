@@ -6,7 +6,7 @@ $project = "AUTOMATIC SIS BOOTSTRAP JOB";
 // $date_time_run = $argv[1];
 
 $lib_root_path = "/var/www/html/lib";
-$batch_root_path = "/root/jobs";
+$batch_root_path = "/root/jobs/sis_batch";
 
 
 
