@@ -1,12 +1,12 @@
 #!/bin/bash
 <?php
-$project_code = "crm2_survey_job";
-$project = "AUTOMATIC CRM2 SURVEY MIGRATE BACK JOB";
+$project_code = "sis_bootstrap_job";
+$project = "AUTOMATIC SIS BOOTSTRAP JOB";
 
 $date_time_run = $argv[1];
 
-$lib_root_path = "/var/www/html/v2/lib";
-$batch_root_path = "/var/www/hub_batch";
+$lib_root_path = "/var/www/html/lib";
+$batch_root_path = "/root/jobs";
 
 
 
@@ -68,7 +68,7 @@ $nb_bad_customer       = $res["nb_bad_customer"];
 $nb_bad_request        = $res["nb_bad_request"];
 
 
-$row_0 = array('jobname'=>"migrate back survey result to CRM2",
+$row_0 = array('jobname'=>"migrate back survey result to C RM2",
                'update_back'=>$nb_survey_update_back, 'bad_customer'=>$nb_bad_customer, 'bad_request'=>$nb_bad_request,);
 
 $recap_data[] = $row_0;
